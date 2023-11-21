@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Collections;
 
 class Zoo implements Iterable<Animal> {
-    private List<Cage> cages;
+    private final List<Cage> cages;
 
     public Zoo(int cageCount) {
         cages = new ArrayList<>();

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Cage {
-    private List<Animal> animals;
+    private final List<Animal> animals;
 
     public Cage() {
         animals = new ArrayList<>();
